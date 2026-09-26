@@ -4,16 +4,16 @@ plugins {
 }
 group 'me.cortex'
 version '1.0-SNAPSHOT'
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation 'org.ow2.asm:asm:9.5'
-    implementation 'org.ow2.asm:asm-tree:9.5'
+    implementation 'org.ow2.asm:asm:9.10.1'
+    implementation 'org.ow2.asm:asm-tree:9.10.1'
 }
 
 test {
