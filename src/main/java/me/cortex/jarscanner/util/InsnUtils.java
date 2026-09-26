@@ -1,6 +1,5 @@
 package me.cortex.jarscanner.util;
 
-import me.coley.cafedude.classfile.instruction.LookupSwitchInstruction;
 import org.objectweb.asm.tree.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

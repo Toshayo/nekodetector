@@ -1,10 +1,9 @@
 package me.cortex.jarscanner.scanner;
 
-import me.coley.cafedude.classfile.ClassFile;
-import me.coley.cafedude.io.ClassFileReader;
-import me.coley.cafedude.io.ClassFileWriter;
-import me.coley.cafedude.transform.IllegalStrippingTransformer;
-import me.cortex.jarscanner.Main;
+import software.coley.cafedude.classfile.ClassFile;
+import software.coley.cafedude.io.ClassFileReader;
+import software.coley.cafedude.io.ClassFileWriter;
+import software.coley.cafedude.transform.IllegalStrippingTransformer;
 import me.cortex.jarscanner.detection.Detection;
 import me.cortex.jarscanner.detection.DetectionProblem;
 import me.cortex.jarscanner.scanner.summary.JarScanSummary;
