@@ -6,10 +6,9 @@ import me.cortex.jarscanner.scanner.summary.RootScanSummary;
 import me.cortex.jarscanner.util.UncheckedSupplier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import software.coley.llzip.format.ZipPatterns;
+import software.coley.lljzip.format.ZipPatterns;
 
 import javax.annotation.Nonnull;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.*;

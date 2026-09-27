@@ -9,12 +9,12 @@ import me.cortex.jarscanner.detection.DetectionProblem;
 import me.cortex.jarscanner.scanner.summary.JarScanSummary;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.tree.ClassNode;
-import software.coley.llzip.ZipIO;
-import software.coley.llzip.format.compression.ZipCompressions;
-import software.coley.llzip.format.model.LocalFileHeader;
-import software.coley.llzip.format.model.ZipArchive;
-import software.coley.llzip.util.ByteData;
-import software.coley.llzip.util.ByteDataUtil;
+import software.coley.lljzip.ZipIO;
+import software.coley.lljzip.format.compression.ZipCompressions;
+import software.coley.lljzip.format.model.LocalFileHeader;
+import software.coley.lljzip.format.model.ZipArchive;
+import software.coley.lljzip.util.ByteData;
+import software.coley.lljzip.util.ByteDataUtil;
 
 import javax.annotation.Nonnull;
 import java.io.IOException;
